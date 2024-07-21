@@ -236,7 +236,8 @@ section .title::after {
   width: 400px;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 2px 2px 8px #E5E1DA;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 .about .about-content .right {
   width: 55%;
@@ -250,7 +251,6 @@ section .title::after {
   color: crimson;
 }
 .about .about-content .right p {
-  text-align: justify;
   line-height: 1.6;
   letter-spacing: 1px;
 }
@@ -276,6 +276,7 @@ section .title::after {
   float: left;
   width: 45px;
   height: 45px;
+  margin-right: 8px;
   cursor: pointer;
   background: #fff;
   overflow: hidden;
@@ -298,13 +299,12 @@ section .title::after {
   color: crimson;
   transition: all 0.3s ease-in-out;
 }
-.button1:hover {
-  width: 150px;
-}
+
 .button1:hover i {
   color: #fff;
 }
 .button1 span {
+  color: #000;
   font-size: 15px;
   font-weight: 500;
   line-height: 10px;
