@@ -236,6 +236,7 @@ section .title::after {
   width: 400px;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 2px 2px 8px #E5E1DA;
 }
 .about .about-content .right {
   width: 55%;
