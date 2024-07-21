@@ -2,14 +2,12 @@
 
 const handleContactForm = () => {
     Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "kapex.coder@gmail.com",
-        Password : "A03E4E2075F219EF603F09AA94066D73155A",
-        To : 'kapex.coder@gmail.com',
-        From : document.getElementById("user-email").value,
-        Subject : "This is the subject",
-        Body : "And this is the body"
+        SecureToken: "9fbd48a0-687a-4010-87fa-1e2644e1e185",
+        To: 'kapex.coder@gmail.com',
+        From: document.getElementById("user-email").value,
+        Subject: "This is the subject",
+        Body: "And this is the body"
     }).then(
-      message => alert(message)
+        message => alert(message)
     );
 }
