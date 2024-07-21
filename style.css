@@ -395,9 +395,8 @@ section .title::after {
   color: #fff;
 }
 .projects .carousel .card img {
-  height: 250px;
   width: 280px;
-  object-fit: fill;
+  object-fit: contain;
   border-radius: 10px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
