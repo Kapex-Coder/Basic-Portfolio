@@ -2,7 +2,7 @@
 
 const handleContactForm = () => {
     Email.send({
-        SecureToken : "32ff0537-55ba-469b-aedc-67559923590f",
+        SecureToken : "9fbd48a0-687a-4010-87fa-1e2644e1e185",
         To : 'kapex.coder@gmail.com',
         From : document.getElementById("user-email").value,
         Subject : "This is the subject",
