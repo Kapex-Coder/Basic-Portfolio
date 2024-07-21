@@ -498,7 +498,7 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form action="#">
+            <form onsubmit="handleContactForm(); reset(); return false;">
               <div class="fields">
                 <div class="field name">
                   <input
@@ -508,6 +508,7 @@
                 </div>
                 <div class="field email">
                   <input
+                    id="user-email"
                     type="email"
                     placeholder="Email"
                     name="email"
@@ -557,6 +558,8 @@
     <script
       src="script.js"
       async></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="smtp.js"></script>
     <!-- External Javascript File end-->
   </body>
 </html>
