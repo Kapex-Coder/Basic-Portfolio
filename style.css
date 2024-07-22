@@ -642,6 +642,9 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+  .home {
+    background: #111111
+  }
   .max-width {
     padding: 0 23px;
   }
